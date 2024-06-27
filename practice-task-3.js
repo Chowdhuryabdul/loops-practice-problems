@@ -82,12 +82,27 @@ if(item > 44){
 /*  practice-10
 wrtie the price of the books that you have. display prices if the price is higher than 200. you will skip those. */
 
-var prices =[230, 200, 330, 150, 159, 180, 179, 201, 230, 154, 178]
+/* var prices =[230, 200, 330, 150, 159, 180, 179, 201, 230, 154, 178]
 for(var i = 0; i <= prices.length; i++){
     var book = prices[i]
     if (book > 200){
         continue
     }
 console.log(book)
-}
+} */
 
+// to slice the index in Array
+
+var numbers = [1, 30, 9, 5, 6, 8]
+// var cut = numbers.slice(1,3,)
+var cut = numbers.slice(-2)
+console.log(cut)
+console.log(numbers.length)
+
+
+// to check the string something inside a string--
+var point = 'ariana grande is singing'
+console.log(point.includes('Grande'))
+
+// to check substring- it means it will check the each and every letter of word
+console.log(point.substring(0,5))
